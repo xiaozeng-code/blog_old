@@ -1,0 +1,95 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>{% block title %} xiaozeng Blog site {% endblock %}</title>
+<link rel="stylesheet" type="text/css" href="/static/css/base.css"/>
+</head>
+
+<body>
+	<div class="header animated bounceInDown ">
+    	<div class="wrap">
+            <div class="logo">
+                <a hrfe="#">
+                    <img alt="logo" title="首页" src="/static/img/logo.png" />
+                </a>
+            </div>
+            
+            <div class="top-nav">
+                <ul id="topnav"><li><a href="/" title="首页">首页<span></span></a></li>
+                    <li><a href="/about" title="关于我">关于我<span> </span></a></li>
+                    <li><a href="/newslist/" title="闲谈生活">闲谈生活<span> </span></a></li>
+                    <li><a href="/Timeaxis" title="时光轴">时光轴<span></span></a></li>
+                    <li><a href="/itshare/" title="技术分享">技术分享<span> </span></a></li>
+                    <li><a href="/seofeel/" title="SEO感悟">SEO感悟<span> </span></a></li>
+                    <li><a href="/gbook" title="留言版">留言版<span></span></a></li>
+                </ul>
+            </div>
+        </div>	
+    </div>
+	
+    <div class="banner">
+    	<section class="box">
+        	<ul class="texts">
+            	<p>人生最重要的价值是心灵的幸福，心应该有个脱落过程</p>
+                <p>我不去想身后会不会袭来寒风冷雨，既然目标是地平线，留给世界的只能是背影。</p>
+                <p>我不去想未来是平坦还是泥泞，只要热爱生命，一切都在意料之中。人的一生中，至少应该有两次意气用事：一次奋不顾身的爱情，一次说走就走的旅行。</p>
+            </ul>
+        </section>	
+    </div>
+    
+    <article>
+    	<h2 class="title_tj">
+        	<p>文章<span>推荐</span></p>
+        </h2> 
+        
+        <div class="bloglist left">
+        	<h3>
+            	<a title="对于帝都、魔都、妖都的介绍" href="/newslist/502061158.html" target="_blank">对于帝都、魔都、妖都的介绍</a>
+            </h3>
+            <figure>
+            	<img src="/static/img/20150206113104491.PNG" alt="对于帝都、魔都、妖都的介绍" data-bd-imgshare-binded="1">
+            </figure>
+            
+            <ul>
+                <p>
+        对于帝都北京、魔都上海我都有所耳闻，今天听同事将广州是妖都，我问其原因，他们也不能够很好的为我解释，后来我百度了一下，了解了一些大概原因，那么接下来我就为大家详细介绍这些都城...</p>
+                <a title="对于帝都、魔都、妖都的介绍" href="/newslist/502061158.html" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
+            </ul>
+            
+            <p class="dateview"><span>2015-02-06</span><span>作者：圆圆</span><span>个人博客：[<a href="/newslist/">闲谈生活</a>]</span></p>
+            
+            
+            
+            <h3>
+            	<a title="对于帝都、魔都、妖都的介绍" href="/newslist/502061158.html" target="_blank">对于帝都、魔都、妖都的介绍</a>
+            </h3>
+            <figure>
+            	<img src="/static/img/20150206113104491.PNG" alt="对于帝都、魔都、妖都的介绍" data-bd-imgshare-binded="1">
+            </figure>
+            
+            <ul>
+                <p>
+        对于帝都北京、魔都上海我都有所耳闻，今天听同事将广州是妖都，我问其原因，他们也不能够很好的为我解释，后来我百度了一下，了解了一些大概原因，那么接下来我就为大家详细介绍这些都城...</p>
+                <a title="对于帝都、魔都、妖都的介绍" href="/newslist/502061158.html" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
+            </ul>
+            
+            <p class="dateview"><span>2015-02-06</span><span>作者：圆圆</span><span>个人博客：[<a href="/newslist/">闲谈生活</a>]</span></p>
+            
+        </div>
+        
+        <aside class="right">
+        	{% include 'common/right.html' %}
+        </aside>
+        
+        
+          
+    </article>
+    
+    <footer>
+    	<p>Design by xiaozeng</p>
+    </footer>
+	
+</body>
+</html>
