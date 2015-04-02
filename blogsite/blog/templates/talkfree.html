@@ -17,7 +17,7 @@
             </div>
             
             <div class="top-nav">
-                <ul id="topnav"><li><a href="/" title="首页">首页<span></span></a></li>
+                <ul id="topnav"><li><a href="/blog/home/" title="首页">首页<span></span></a></li>
                     <li><a href="/about" title="关于我">关于我<span> </span></a></li>
                     <li><a href="/blog/talkfree/" title="闲谈生活">闲谈生活<span> </span></a></li>
                     <li><a href="/Timeaxis" title="时光轴">时光轴<span></span></a></li>
@@ -48,7 +48,7 @@
       -->
             <ul>
                 {{ blogs.content|truncatewords_html:5|safe }}
-                <a title="对于帝都、魔都、妖都的介绍" href="/newslist/502061158.html" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
+                <a title="对于帝都、魔都、妖都的介绍" href="/blog/talkfree/{{blogs.id}}/" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
             </ul>
             
              <p class="dateview"><span>{{blogs.createtime|date:'Y-m-d'}}</span><span>作者：xiaozeng</span><span>个人博客：[<a href="/newslist/">{{blogs.category}}</a>]</span></p>

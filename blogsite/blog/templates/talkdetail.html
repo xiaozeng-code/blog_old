@@ -1,0 +1,105 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>XiaoZeng的个人网站一个从事SEO的90后</title>
+<link rel="stylesheet" type="text/css" href="/static/css/talkfree.css"/>
+</head>
+
+<body>
+	<div class="header animated bounceInDown ">
+    	<div class="wrap">
+            <div class="logo">
+                <a hrfe="#">
+                    <img alt="logo" title="首页" src="img/logo.png" />
+                </a>
+            </div>
+            
+            <div class="top-nav">
+                <ul id="topnav"><li><a href="/blog/home/" title="首页">首页<span></span></a></li>
+                    <li><a href="/about" title="关于我">关于我<span> </span></a></li>
+                    <li><a href="/blog/talkfree/" title="闲谈生活">闲谈生活<span> </span></a></li>
+                    <li><a href="/Timeaxis" title="时光轴">时光轴<span></span></a></li>
+                    <li><a href="/itshare/" title="技术分享">技术分享<span> </span></a></li>
+                    <li><a href="/seofeel/" title="SEO感悟">SEO感悟<span> </span></a></li>
+                    <li><a href="/gbook" title="留言版">留言版<span></span></a></li>
+                </ul>
+            </div>
+        </div>	
+    </div>
+   
+    <article>
+    	<h1 class="t_nav">
+            <span>just do</span>
+        	<a class="n1" href='/'>网址首页</a>
+            <a class="n2" href="/newlist/">闲谈生活</a>
+        </h1> 
+        
+        <div class="bloglist left">
+        	<h3>
+            	<a title="对于帝都、魔都、妖都的介绍" href="/newslist/502061158.html" target="_blank">对于帝都、魔都、妖都的介绍</a>
+            </h3>
+     <!--
+            <figure>
+            	<img src="img/20150206113104491.PNG" alt="对于帝都、魔都、妖都的介绍" data-bd-imgshare-binded="1">
+            </figure>
+      -->
+            <ul>
+                {{ blog.content|safe }}
+                <a title="对于帝都、魔都、妖都的介绍" href="/blog/talkfree/{{blog.id}}/" target="_blank" class="readmore">阅读全文&gt;&gt;</a>
+            </ul>
+            
+             <p class="dateview"><span>{{blogs.createtime|date:'Y-m-d'}}</span><span>作者：xiaozeng</span><span>个人博客：[<a href="/newslist/">{{blogs.category}}</a>]</span></p>
+            
+   
+            
+        </div>
+        
+        <aside class="right">
+        	<div class="weather">
+            	<iframe width="250" scrolling="no" height="60" frameborder="0" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&amp;id=12&amp;icon=1&amp;num=1"></iframe>
+            </div>
+            
+            <div class="news">
+            
+                <h3>
+                    <p>最新<span>文章</span></p>
+                </h3>
+                <ul class="rank">
+                	<li><a href="/newslist/502061158.html" title="对于帝都、魔都、妖都的介绍" target="_blank">对于帝都、魔都、妖都的介绍</a></li>
+                    <li><a href="/newslist/502041526.html" title="友情似好酒，越久越香醇" target="_blank">友情似好酒，越久越香醇</a></li>
+                    <li><a href="/itshare/501312208.html" title="MVC   重写返回Json" target="_blank">MVC   重写返回Json</a></li>
+                    <li><a href="/itshare/501312149.html" title="asp.net 微信操作公共类大全" target="_blank">asp.net 微信操作公共类大全</a></li>
+                    <li><a href="/itshare/501301743.html" title="Linux Glibc库严重安全漏洞修复通知" target="_blank">Linux Glibc库严重安全漏洞修复通知</a></li>
+                    <li><a href="/seoshare/501292342.html" title="MVC EF 4 5 6写法的改变" target="_blank">MVC EF 4 5 6写法的改变</a></li>
+                    <li><a href="/newslist/501291706.html" title="冬季，找个人陪你赏梅玩雪" target="_blank">冬季，找个人陪你赏梅玩雪</a></li>
+                    <li><a href="/newslist/501281554.html" title="创建个人博客的原因是什么？" target="_blank">创建个人博客的原因是什么？</a></li>
+                </ul>
+                
+                
+                <h3 class="ph">
+                    <p>点击<span>排行</span></p>
+                </h3>
+                <ul class="paih">
+                <li><a href="/itshare/411051957.html" title="asp.net微信支付打通发货通知代码" target="_blank">asp.net微信支付打通发货通知代码</a></li><li><a href="/web/411051952.html" title="关于我" target="_blank">关于我</a></li><li><a href="/newslist/411131657.html" title="这个季节，自己动手做火锅" target="_blank">这个季节，自己动手做火锅</a></li><li><a href="/newslist/411051957.html" title="咖啡之念" target="_blank">咖啡之念</a></li><li><a href="/newslist/412311602.html" title="再见2014，我爱你2015" target="_blank">再见2014，我爱你2015</a></li></ul>
+                
+               <h3 class="links"><p>友情<span>链接</span></p></h3>
+  			   <ul class="website">
+   					<li><a href="http://www.lixue.xyz">离岸个人博客</a></li>
+               </ul>
+            </div>
+            
+            
+        </aside>
+        
+        
+          
+    </article>
+    
+    <footer>
+    	<p>Design by xiaozeng</p>
+    </footer>
+	
+</body>
+</html>

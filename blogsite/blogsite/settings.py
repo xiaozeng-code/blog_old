@@ -36,11 +36,15 @@ INSTALLED_APPS = (
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'django.contrib.sites',
     'taggit',
     'taggit_labels',
     'ckeditor',
     'blog',
-
+    'photologue',
+    'sortedm2m',
+#    'grappelli',
+#    'filebrowser',
 )
 
 MIDDLEWARE_CLASSES = (
@@ -102,8 +106,10 @@ STATIC_URL = '/static/'
 
 STATICFILES_DIRS=(
     os.path.join(BASE_DIR,'static/'),
-    '/var/www/blog',
+    '/root/djaspace/blog/blog_static_dir',
 )
+
+STATIC_ROOT='/root/djaspace/blog/resources/static'
 
 
 #Media files
@@ -140,3 +146,5 @@ CKEDITOR_CONFIGS = {
 }
 
 
+
+SITE_ID=1
