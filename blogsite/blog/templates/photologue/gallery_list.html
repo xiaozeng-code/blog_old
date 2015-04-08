@@ -1,0 +1,8 @@
+{% for gallery in object_list %}
+	{% for photo in gallery.sample %}
+		<a href="{{ photo.get_absolute_url }}">
+			 <img src="{{ photo.get_thumbnail_url }}" class="thumbnail" alt="{{ photo.title }}"></img>
+		</a>
+    {% endfor %}
+{% endfor %}
+
