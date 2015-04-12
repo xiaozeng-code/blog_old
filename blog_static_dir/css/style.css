@@ -1,0 +1,55 @@
+
+.weather {
+    background: url("../img/weather_bg.jpg") no-repeat scroll 0% 0% transparent;
+	height: 88px;
+	margin: 20px 0px;
+	padding: 20px 0px 0px 75px;
+}
+
+
+h4.title_tj {
+	font: 18px "微软雅黑", Arial, Helvetica, sans-serif;
+	color: #444;
+	font-weight: bold;
+	background: url(../img/h_line.jpg) repeat-x 20px center;
+}
+
+h4.title_tj p {
+	background: #fff;
+	width: 90px;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+    color: #333;
+}
+
+
+.dateview {
+    width: 695px;
+    overflow: hidden;
+    clear: both;
+    margin: 10px 0px 0px;
+    display: inline-block;
+    line-height: 26px;
+    height: 26px;
+    color: #838383;
+    padding-left: 25px;
+    background: url("../img/time.jpg") no-repeat scroll 15px center #F6F6F6;
+}
+
+.dateview span {
+    margin: 0px 10px;
+}
+
+
+
+
+
+
+footer { 
+	text-align: center; 
+	line-height: 40px; 
+	border-top: #E8E8E8 1px solid ;
+	width:1000px; margin:auto
+}
