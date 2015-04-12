@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>博客首页</title>
+    <link href="/static/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+    <link type="text/css" href="/static/css/style.css" rel="stylesheet"/>
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="http://cdn.bootcss.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="http://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  
+	<!-- 导航条 -->
+	<nav class="container navbar navbar-default " role="navigation">
+	  <div class="container-fluid">
+	  
+		<div class="navbar-header">
+		  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		  </button>
+		  <a class="navbar-brand" href="#">首页</a>
+		</div>
+
+		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+			  <ul class="nav navbar-nav">
+				<li class="active"><a href="#">关于我 <span class="sr-only">(current)</span></a></li>
+				<li><a href="#">闲谈生活</a></li>
+				
+				<li class="dropdown">
+				  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">照片浏览 <span class="caret"></span></a>
+				  <ul class="dropdown-menu" role="menu">
+				  	<li class="divider"></li>
+					<li><a href="/photologue/gallery/">Data views</a></li>
+					<li><a href="/photologue/gallery/">List views</a></li>
+					<li class="divider"></li>
+					<li><a href="#">Gallery views</a></li>
+					<li><a href="#">List views</a></li>
+					<li class="divider"></li>
+				  </ul>
+				</li>
+				
+				
+				<li><a href="#">时光轴</a></li>
+				<li><a href="#">技术分享</a></li>
+				<li><a href="#">留言板</a></li>
+				
+			  </ul>
+			    
+		  <ul class="nav navbar-nav navbar-right">
+			<li><a href="#">Link</a></li>
+			<li class="dropdown">
+			  <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Dropdown <span class="caret"></span></a>
+			  <ul class="dropdown-menu" role="menu">
+				<li><a href="#">Action</a></li>
+				<li><a href="#">Another action</a></li>
+				<li><a href="#">Something else here</a></li>
+				<li class="divider"></li>
+				<li><a href="#">Separated link</a></li>
+			  </ul>
+			</li>
+			
+		  </ul>
+		</div>
+	  </div>
+	</nav>
+	
+    <div class="container">
+		
+		
+		<h4 class="title_tj"><p>文章<span>推荐</span></p></h4>
+		<div class='row'>
+		
+			<aside class="col-md-2">
+
+				<h4>Filter by year</h4>
+				<ul>
+					<li><a href="/photologue/gallery/2015/">2015</a></li>
+				</ul>
+
+			</aside>
+			
+			<main class="col-sm-7">
+				<div>
+				<h2><a href="/photologue/gallery/dogs/">Dogs</a></h2>
+				<p class="muted"><small>Published 12 Apr 2015, 3:52 a.m.</small></p>
+					<a href="/photologue/photo/dogs-3/">
+						 <img src="/media/photologue/photos/cache/312960255_85e378833b_o_JT0MoMK_thumbnail.jpg" class="thumbnail" alt="Dogs 3">
+					</a>
+				
+					<a href="/photologue/photo/dogs-8/">
+						 <img src="/media/photologue/photos/cache/821161211_7658848ad6_o_9FDNwdx_thumbnail.jpg" class="thumbnail" alt="Dogs 8">
+					</a>
+				
+					<a href="/photologue/photo/dogs-9/">
+						 <img src="/media/photologue/photos/cache/821163889_6adc7f5f95_o_nxLbIFV_thumbnail.jpg" class="thumbnail" alt="Dogs 9">
+					</a>
+				
+					<a href="/photologue/photo/dogs-4/">
+						 <img src="/media/photologue/photos/cache/3717404335_1b4a7a719b_o_DU0FB4q_thumbnail.jpg" class="thumbnail" alt="Dogs 4">
+					</a>
+				
+					<a href="/photologue/photo/dogs-7/">
+						 <img src="/media/photologue/photos/cache/7058942935_0a6706b51d_o_lTRbqLw_thumbnail.jpg" class="thumbnail" alt="Dogs 7">
+					</a>
+				
+
+				</div>
+			</main>
+		
+			<div class="col-sm-3 right-col">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="weather">
+							<iframe scrolling="no" allowtransparency="true" src="http://i.tianqi.com/index.php?c=code&amp;id=12&amp;icon=1&amp;num=1" frameborder="0" height="60" width="250"></iframe>
+						</div>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-sm-12">
+						<ul class="list-group">
+							<li class="list-group-item active">最新文章</li>
+							<a href="/newslist/502061158.html" class="list-group-item" title="对于帝都、魔都、妖都的介绍" target="_blank">对于帝都、魔都、妖都的介绍</a></li>
+							<a href="/newslist/502041526.html" class="list-group-item" title="友情似好酒，越久越香醇" target="_blank">友情似好酒，越久越香醇</a></li>
+							<a href="/newslist/502061158.html" class="list-group-item" title="对于帝都、魔都、妖都的介绍" target="_blank">对于帝都、魔都、妖都的介绍</a></li>
+							<a href="/newslist/502041526.html" class="list-group-item" title="友情似好酒，越久越香醇" target="_blank">友情似好酒，越久越香醇</a></li>			
+						</ul>
+					</div>
+				</div>
+				
+				<div class="row">
+					<div class="col-sm-12">
+						<ul class="list-group">
+							<li class="list-group-item list-group-item-warning">点击排行</li>
+							<a href="/newslist/502061158.html" class="list-group-item" title="对于帝都、魔都、妖都的介绍" target="_blank">对于帝都、魔都、妖都的介绍</a></li>
+							<a href="/newslist/502041526.html" class="list-group-item" title="友情似好酒，越久越香醇" target="_blank">友情似好酒，越久越香醇</a></li>
+							<a href="/newslist/502061158.html" class="list-group-item" title="对于帝都、魔都、妖都的介绍" target="_blank">对于帝都、魔都、妖都的介绍</a></li>
+							<a href="/newslist/502041526.html" class="list-group-item" title="友情似好酒，越久越香醇" target="_blank">友情似好酒，越久越香醇</a></li>			
+						</ul>
+					</div>
+				</div>
+						
+			</div>
+			
+		</div>
+	</div>
+	
+	
+
+	<!--设置footer样式 -->
+	 <footer class="container">
+        <div class="row">
+            <ul class="list-unstyled">
+              <li class="pull-right"><a href="#top">Back to top</a></li>
+              <li class="text-center small">&copy;Design by xiaozeng 2014-2015</li>
+            </ul>
+        </div>
+      </footer>
+	
+	
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="/static/js/jquery-1.11.2.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="/static/bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>
